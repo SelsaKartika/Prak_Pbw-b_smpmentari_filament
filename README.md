@@ -19,43 +19,42 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - [Robust background job processing](https://laravel.com/docs/queues).
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+rability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-## Learning Laravel
+# 🏫 CRUD Laravel + Filament — SMP Mentari
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Modul praktikum **Pemrograman Berbasis Web (PBW)** ini membimbing mahasiswa dalam membangun aplikasi **CRUD Laravel + Filament v4** bertema *SMP Mentari*.  
+Hasil akhir berupa **panel admin** (Filament) dan **halaman publik sederhana** untuk menampilkan kegiatan sekolah.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+---
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 🎯 Tujuan Praktikum
+Mahasiswa mampu:
+- Membuat proyek Laravel dari nol.
+- Menginstal dan mengonfigurasi Filament v4.
+- Mendesain model dan migrasi data (Kegiatan & Siswa).
+- Menghasilkan CRUD otomatis menggunakan Filament Resource.
+- Membuat halaman depan (public page) untuk menampilkan data kegiatan.
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## 🧰 Prasyarat & Peralatan
+| Software | Versi Minimal | Keterangan |
+|-----------|----------------|-------------|
+| PHP | 8.2+ | Wajib |
+| Composer | 2.x | Dependency Manager |
+| Node.js | 18+ | Untuk build front-end |
+| MySQL / MariaDB | — | Database |
+| Git | (opsional) | Version Control |
 
-### Premium Partners
+> **Catatan:** Gunakan **Filament v4** (mendukung Laravel 11+) untuk kompatibilitas dengan Tailwind v4.
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+---
 
-## Contributing
+## ⚙️ Langkah Instalasi
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### 1️⃣ Buat Proyek Laravel Baru
+```bash
+composer create-project laravel/laravel smpmentari_filament
+cd smpmentari_filament
+php artisan serve
