@@ -51,10 +51,9 @@ Mahasiswa mampu:
 
 ---
 
-## ⚙️ Langkah Instalasi
+## Hasil screenshoot
+![WhatsApp Image 2025-11-07 at 21 40 53_3a03e7cf](https://github.com/user-attachments/assets/97b7be32-23fe-4dfd-9541-cc2963440fbb)
+![WhatsApp Image 2025-11-07 at 21 52 38_e486e0cc](https://github.com/user-attachments/assets/896714d6-2dc0-48e2-a968-0f9eb4bec61e)
+![WhatsApp Image 2025-11-07 at 21 55 27_5c5cc8dd](https://github.com/user-attachments/assets/90a600f9-3f61-4bd4-82dc-21dfb47f8507)
 
-### 1️⃣ Buat Proyek Laravel Baru
-```bash
-composer create-project laravel/laravel smpmentari_filament
-cd smpmentari_filament
-php artisan serve
+
